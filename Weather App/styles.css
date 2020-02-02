@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Luna", cursive;
+    background: linear-gradient(#2193b0,#6dd5ed);
+    color: white;
+}
+
+.location{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature{
+    flex-direction: column;
+}
+
+.degree{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.degree span{
+    margin: 10px;
+    font-size: 36px;
+}
+
+.degree h2{
+    font-size: 40px;
+}
